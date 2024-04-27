@@ -12,10 +12,9 @@ $ npm install express mysql ejs bcryptjs express-session express-validator
 
 #Step 2: Set up the Backend
 
-4.
-Create a server.js file in your project directory.
-5. Create a MySQL database named learning_management
-6. Create users table
+#4.Create a server.js file in your project directory.
+#5. Create a MySQL database named learning_management
+#6. Create users table
 -- Create users table
 
 CREATE TABLE users (
