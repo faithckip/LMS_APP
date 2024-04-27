@@ -13,7 +13,9 @@ $ npm install express mysql ejs bcryptjs express-session express-validator
 #Step 2: Set up the Backend
 
 #4.Create a server.js file in your project directory.
+
 #5. Create a MySQL database named learning_management
+
 #6. Create users table
 -- Create users table
 
@@ -26,11 +28,13 @@ full_name VARCHAR(255)
 );
 
 Create courses table
+
 -- Create courses table
 CREATE TABLE courses (
 id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(255)
 );
+
 -- Insert sample data into courses table
 INSERT INTO courses (name) VALUES
 ('Introduction to HTML'),
@@ -53,11 +57,17 @@ INSERT INTO leaderboard (name, score) VALUES
 ('Emily Jones', 80);
 
 Run the server.
+
 node server.js
 
 #Step 3: Frontend Setup
+
 Create an index.html file for the frontend.
+
 Create a course-content.html file for the course content.
+
 Create a leader-board.html file for the leader board.
+
 Create a style.css file to style your HTML.
+
 Create a script.js file to handle frontend interactions.
